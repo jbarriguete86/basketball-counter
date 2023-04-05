@@ -1,0 +1,118 @@
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: Scoreboard;
+}
+    
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom, #0369A1, #0284C7, #7DD3FC, #FDA4AF, #FB7185 );
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+h3 {
+    color: #EEEEEE;
+    text-shadow: 0 0 1px black;
+    font-size: 40px;
+    margin: 20px 0;
+} 
+
+h4 {
+    
+    color: #F94F6D;
+    font-family: Scoreboard, verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.container {
+    max-width: 575px;
+    max-height: 600px;
+    background: #1B244Aff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+    border-radius: 15px;
+}
+
+.top-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fancy-btn-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    justify-content:space-between; 
+    
+}
+
+
+.score-container {
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.scores {
+    background: #000000;
+    border-radius: 15px;
+    color: #F94F6D;
+    font-family: Scoreboard, verdana, sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: center;
+    align-content:space-between;
+    margin: 26px;
+    
+}
+
+.btn {
+    background: #1B244Aff;
+    color: #9AABD8;
+    font-family: Scoreboard;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 9px;
+    outline: 1px solid #9AABD8;
+    margin-left: 14px; 
+}
+
+.btn:first-of-type {
+    margin-left: 0px;
+}
+
+.inactive {
+    color: #021F6D;
+    outline: 1px solid #021F6D;
+}

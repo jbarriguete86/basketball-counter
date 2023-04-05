@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scorecard</title>
+    <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="top-container">
+                <div class="score-container">
+                    <h3>HOME</h3>
+                    <h2 id="team1-score" class="scores"></h2>
+                    <div class="btn-container">
+                        <button class="btn"  onclick="team1Add1()">+1</button>
+                        <button class="btn"  onclick="team1Add2()">+2</button>
+                        <button class="btn"  onclick="team1Add3()">+3</button>
+                    </div>
+                    
+                </div>
+                <div class="score-container">
+                    <h3>GUEST</h3>
+                    <h2 id="team2-score" class="scores"></h2>
+                    <div class="btn-container">
+                        <button class="btn"  onclick="team2Add1()">+1</button>
+                        <button class="btn"  onclick="team2Add2()">+2</button>
+                        <button class="btn"  onclick="team2Add3()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <div class="fancy-btn-container">
+                <div class="fancy-btn">
+                    <button id="period-btn" class="btn" onclick="addPeriod()">Period</button>
+                    <button id="clear-btn" class="btn inactive" onclick="clearOut()">clear</button>  
+                </div>
+                <h4 id="period-text">THE GAME HAS NOT START YET</h4> 
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
