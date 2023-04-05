@@ -120,5 +120,6 @@ function clearOut() {
     periodSelect.textContent = "THE GAME HAS NOT START YET.";
     clearBotton.classList.remove("active");
     clearBotton.classList.add("inactive");
+    periodBotton.classList.remove("inactive");
     }
 }
